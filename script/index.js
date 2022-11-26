@@ -1,5 +1,5 @@
 let time = new Date().getTime()
-fetch(`https://cwdoo.github.io/peoplearepower/config/video.json?t=${time}`,{
+fetch(`config/video.json?t=${time}`,{
     method:"GET",
 }).then((response)=>response.json()).then((data)=>{
     let root = document.querySelector(".main");
@@ -9,6 +9,9 @@ fetch(`https://cwdoo.github.io/peoplearepower/config/video.json?t=${time}`,{
         let div = document.createElement("div");
         let title = document.createElement("div");
         let description = document.createElement("div");
+        let videoContent = document.createElement("div");
+        videoContent.classList.add("video-box");
+        videoContent.appendChild(video)
         title.innerText=value.title;        
         description.innerText=value.description;  
         title.classList.add("video-title");
@@ -20,7 +23,7 @@ fetch(`https://cwdoo.github.io/peoplearepower/config/video.json?t=${time}`,{
         source.src=`video/${value.video}`;
         source.type="video/mp4";
         video.appendChild(source);
-        div.appendChild(video)
+        div.appendChild(videoContent)
         div.append(description)
         root.appendChild(div);
     })
