@@ -17,7 +17,7 @@ fetch(`https://cwdoo.github.io/peoplearepower/config/video.json?t=${time}`,{
         video.controls = true;
         div.setAttribute("index",value.id);
         div.append(title)
-        source.src=`/video/${value.video}`;
+        source.src=`video/${value.video}`;
         source.type="video/mp4";
         video.appendChild(source);
         div.appendChild(video)
