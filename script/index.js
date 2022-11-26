@@ -1,5 +1,5 @@
 let time = new Date().getTime()
-fetch(`/config/video.json?t=${time}`,{
+fetch(`config/video.json?t=${time}`,{
     method:"GET",
 }).then((response)=>response.json()).then((data)=>{
     let root = document.querySelector(".main");
