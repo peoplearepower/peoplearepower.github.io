@@ -17,12 +17,15 @@ fetch(`config/video.json?t=${time}`,{
         title.classList.add("video-title");
         description.classList.add("video-description");
         div.classList.add("video-card");
+        
         video.controls = true;
         div.setAttribute("index",value.id);
         div.append(title)
         source.src=`video/${value.video}`;
         source.type="video/mp4";
+        video.preload = "metadata";
         video.appendChild(source);
+        
         div.appendChild(videoContent)
         div.append(description)
         root.appendChild(div);
