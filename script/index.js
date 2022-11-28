@@ -3,7 +3,7 @@ fetch(`config/video.json?t=${time}`, {
     method: "GET",
 }).then((response) => response.json()).then((data) => {
     let root = document.querySelector(".main");
-    format(data);
+
     data.forEach((value) => {
 
         let video = document.createElement("video");
@@ -33,6 +33,10 @@ fetch(`config/video.json?t=${time}`, {
         root.appendChild(div);
     })
 })
+
+
+
+
 document.onreadystatechange = function () {
     if (document.readyState == "complete") {
         document.querySelector("#close").addEventListener("click", (e) => {
