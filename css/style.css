@@ -6,9 +6,29 @@
     width: 80%;
     margin: 0 auto;
 }
-.card{
-
+a{
+    color: inherit;
+    cursor: pointer;
 }
+.close{
+    display: flex;
+    cursor: pointer;
+}
+.alert{
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 10;
+    padding: 6px;
+    margin-left: 20%;
+    width: 80%;
+    text-align: center;
+    background-color: hsl(192deg 79% 49% / 23%);
+    color: rgb(26 183 222);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
 .video-card{
     width: 100%;
     height: 700px;
