@@ -2,7 +2,8 @@
 
 - [中文](README_zh.md)
 
-[see](https://cwdoo.github.io/peoplearepower/)
+- [see](https://cwdoo.github.io/peoplearepower/)
+- [For more information on this matter, click me, the password is: freedom](https://drive.proton.me/urls/Q0NWFTE8EW#hzti5yJumxyF)
 
 ## About this repo
 You can clone, star, fork this repository, or let more of our compatriots know what our compatriots are going through, what's going on in this land.

@@ -1,7 +1,8 @@
 ## People are power
 - [English](README_en.md)
 
-[see](https://cwdoo.github.io/peoplearepower/)
+- [see](https://cwdoo.github.io/peoplearepower/)
+- [有关于此次事件的更多信息,请查看此处,密码为: freedom](https://drive.proton.me/urls/Q0NWFTE8EW#hzti5yJumxyF)
 
 ## 关于这个仓库
 
