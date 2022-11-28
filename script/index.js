@@ -1,15 +1,4 @@
 let time = new Date().getTime()
-
-document.onreadystatechange = function () {
-    if (document.readyState == "complete") {
-        document.querySelector("#close").addEventListener("click", (e) => {
-            let alter = document.querySelector(".alert")
-            console.log(alter)
-            alter.style= "display:none;";
-        })
-    }
-}
-
 fetch(`config/video.json?t=${time}`, {
     method: "GET",
 }).then((response) => response.json()).then((data) => {
@@ -36,7 +25,7 @@ fetch(`config/video.json?t=${time}`, {
         div.append(title)
         source.src = `video/${value.video}`;
         source.type = "video/mp4";
-        video.preload = "metadata";
+        video.preload = "none";
         video.appendChild(source);
         
         div.appendChild(videoContent)
@@ -44,18 +33,12 @@ fetch(`config/video.json?t=${time}`, {
         root.appendChild(div);
     })
 })
-
-
-/**
- * [format description]
- * @param  {any[]} list [description]
- * @return {[type]}      [description]
- */
-function format(list) {
-    let l = [];
-    list.forEach((value, index) => {
-        value.id = index + 1;
-        l.push(value);
-    })
-    console.log(JSON.stringify(l))
+document.onreadystatechange = function () {
+    if (document.readyState == "complete") {
+        document.querySelector("#close").addEventListener("click", (e) => {
+            let alter = document.querySelector(".alert")
+            console.log(alter)
+            alter.style= "display:none;";
+        })
+    }
 }
