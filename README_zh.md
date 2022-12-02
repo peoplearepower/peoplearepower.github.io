@@ -1,11 +1,12 @@
 ## People are power
 - [English](README_en.md)
 
-- [see](https://cwdoo.github.io/peoplearepower/)
+- [see](https://github.com/peoplearepower/peoplearepower.github.io)
 - [有关于此次事件的更多信息,请查看此处,密码为: freedom](https://drive.proton.me/urls/Q0NWFTE8EW#hzti5yJumxyF)
 
 -----
 
+```
 我们是广场上的遗孤
 我们是野火后的新芽
 我们沉入长江底 我们埋在动车下
@@ -43,6 +44,7 @@
 明天我们还要站到你们面前
 因为
 It's my duty
+```
 
 -----
 

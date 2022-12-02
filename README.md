@@ -8,6 +8,7 @@
 
 ----
 
+```
 We are orphans in the square
 We are the sprouts after the wildfire
 We sink to the bottom of the Yangtze River, we are buried under the train
@@ -45,7 +46,7 @@ We are still here today
 We will stand in front of you tomorrow
 Because:
 This's my duty
-
+```
 
 ----
 
